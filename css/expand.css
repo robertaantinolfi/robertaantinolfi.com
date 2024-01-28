@@ -1,0 +1,259 @@
+/* holy swiss typography */
+.expand_holy {
+  position: relative;
+  overflow: hidden;
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  -webkit-transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  will-change: transform;
+}
+
+.expand_holy.open {
+  opacity: 1;
+  visibility: visible;
+  height: 110px;
+  -webkit-transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  will-change: transform;
+}
+
+#holy_link {
+  opacity: 1;
+  will-change: transform;
+}
+
+/* grafica italiana */
+.expand_sottsass {
+  position: relative;
+  overflow: hidden;
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  -webkit-transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  will-change: transform;
+}
+
+.expand_sottsass.open {
+  opacity: 1;
+  visibility: visible;
+  height: 110px;
+  -webkit-transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  will-change: transform;
+}
+
+#sottsass_link {
+  opacity: 1;
+  will-change: transform;
+}
+
+/* OUT!!! */
+.expand_out {
+  position: relative;
+  overflow: hidden;
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  -webkit-transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  will-change: transform;
+}
+
+.expand_out.open {
+  opacity: 1;
+  visibility: visible;
+  height: 110px;
+  -webkit-transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  will-change: transform;
+}
+
+#out_link {
+  opacity: 1;
+  will-change: transform;
+}
+
+/* sherlcok */
+.expand_sherlock {
+  position: relative;
+  overflow: hidden;
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  -webkit-transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  will-change: transform;
+}
+
+.expand_sherlock.open {
+  opacity: 1;
+  visibility: visible;
+  height: 110px;
+  -webkit-transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  will-change: transform;
+}
+
+#sherlock_link {
+  opacity: 1;
+  will-change: transform;
+}
+
+/* aradia */
+.expand_aradia {
+  position: relative;
+  overflow: hidden;
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  -webkit-transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  will-change: transform;
+}
+
+.expand_aradia.open {
+  opacity: 1;
+  visibility: visible;
+  height: 110px;
+  -webkit-transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  will-change: transform;
+}
+
+#aradia_link {
+  opacity: 1;
+  will-change: transform;
+}
+
+/* game thesaurus */
+.expand_game {
+  position: relative;
+  overflow: hidden;
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  -webkit-transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  will-change: transform;
+}
+
+.expand_game.open {
+  opacity: 1;
+  visibility: visible;
+  height: 110px;
+  -webkit-transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  will-change: transform;
+}
+
+#game_link {
+  opacity: 1;
+  will-change: transform;
+}
+
+/* 4030: the user as designer */
+.expand_user {
+  position: relative;
+  overflow: hidden;
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  -webkit-transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  will-change: transform;
+}
+
+.expand_user.open {
+  opacity: 1;
+  visibility: visible;
+  height: 110px;
+  -webkit-transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  will-change: transform;
+}
+
+#user_link {
+  opacity: 1;
+  will-change: transform;
+}
+
+/* PRMC */
+.expand_prmc {
+  position: relative;
+  overflow: hidden;
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  -webkit-transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  will-change: transform;
+}
+
+.expand_prmc.open {
+  opacity: 1;
+  visibility: visible;
+  height: 110px;
+  -webkit-transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  will-change: transform;
+}
+
+#prmc_link {
+  opacity: 1;
+  will-change: transform;
+}
+
+/* the duel */
+.expand_duel {
+  position: relative;
+  overflow: hidden;
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  -webkit-transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  will-change: transform;
+}
+
+.expand_duel.open {
+  opacity: 1;
+  visibility: visible;
+  height: 110px;
+  -webkit-transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  will-change: transform;
+}
+
+#duel_link {
+  opacity: 1;
+  will-change: transform;
+}
+
+/* a weekend in zurich */
+.expand_guide {
+  position: relative;
+  overflow: hidden;
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  -webkit-transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  will-change: transform;
+}
+
+.expand_guide.open {
+  opacity: 1;
+  visibility: visible;
+  height: 110px;
+  -webkit-transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  transition: all 0.6s cubic-bezier(.4,0,.2,1);
+  will-change: transform;
+}
+
+#guide_link {
+  opacity: 1;
+  will-change: transform;
+}
