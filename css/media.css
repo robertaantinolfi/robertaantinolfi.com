@@ -1,31 +1,31 @@
 @media screen and (min-width: 0px) and (max-width: 369px) {
     #mobile{ display: block; font-size: var(--fontsizeXS);}    
     #mobile-hide{display: none;}
-    #cursor: { display: none;}
+    #cursor { display: none;}
 }
 
 @media screen and (min-width: 370px) and (max-width: 412px) { 
     #mobile{ display: block; font-size: var(--fontsizeXS);}
     #mobile-hide{display: none;}   
-    #cursor: { display: none;}
+    #cursor { display: none;}
 }
 
 @media screen and (min-width: 413px) and (max-width: 539px) {
     #mobile{ display: block; font-size: var(--fontsizeXS);}
     #mobile-hide{display: none;}
-    #cursor: { display: none;}
+    #cursor { display: none;}
 }
 
 @media screen and (min-width: 540px) and (max-width: 649px) {
     #mobile{ display: block; font-size: var(--fontsizeXS);}
     #mobile-hide{display: none;}
-    #cursor: { display: none;}
+    #cursor { display: none;}
 }
 
 @media screen and (min-width: 650px) and (max-width: 800px) {
     #mobile{ display: block; font-size: var(--fontsizeXS);}
     #mobile-hide{display: none;}
-    #cursor: { display: none;}
+    #cursor { display: none;}
 }
 
 @media screen and (min-width: 801px) and (max-width: 1089px) { 
