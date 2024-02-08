@@ -36,7 +36,7 @@ const swiper = new Swiper('.swiper', {
 const swipermobile = new Swiper('.swiper-mobile', {
     // Optional parameters
     loop: true,
-    slidesPerView: 2,
+    slidesPerView: 1,
     spaceBetween: 10,
     mousewheel: true,
     mousewheel: {
