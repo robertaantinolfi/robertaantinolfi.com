@@ -13,7 +13,7 @@
 .expand_holy.open {
   opacity: 1;
   visibility: visible;
-  height: 110px;
+  height: 150px;
   -webkit-transition: all 0.6s cubic-bezier(.4,0,.2,1);
   transition: all 0.6s cubic-bezier(.4,0,.2,1);
   will-change: transform;
@@ -39,7 +39,7 @@
 .expand_sottsass.open {
   opacity: 1;
   visibility: visible;
-  height: 110px;
+  height: 150px;
   -webkit-transition: all 0.6s cubic-bezier(.4,0,.2,1);
   transition: all 0.6s cubic-bezier(.4,0,.2,1);
   will-change: transform;
@@ -65,7 +65,7 @@
 .expand_out.open {
   opacity: 1;
   visibility: visible;
-  height: 110px;
+  height: 150px;
   -webkit-transition: all 0.6s cubic-bezier(.4,0,.2,1);
   transition: all 0.6s cubic-bezier(.4,0,.2,1);
   will-change: transform;
@@ -91,7 +91,7 @@
 .expand_sherlock.open {
   opacity: 1;
   visibility: visible;
-  height: 110px;
+  height: 150px;
   -webkit-transition: all 0.6s cubic-bezier(.4,0,.2,1);
   transition: all 0.6s cubic-bezier(.4,0,.2,1);
   will-change: transform;
@@ -117,7 +117,7 @@
 .expand_aradia.open {
   opacity: 1;
   visibility: visible;
-  height: 110px;
+  height: 150px;
   -webkit-transition: all 0.6s cubic-bezier(.4,0,.2,1);
   transition: all 0.6s cubic-bezier(.4,0,.2,1);
   will-change: transform;
@@ -143,7 +143,7 @@
 .expand_game.open {
   opacity: 1;
   visibility: visible;
-  height: 110px;
+  height: 150px;
   -webkit-transition: all 0.6s cubic-bezier(.4,0,.2,1);
   transition: all 0.6s cubic-bezier(.4,0,.2,1);
   will-change: transform;
@@ -169,7 +169,7 @@
 .expand_user.open {
   opacity: 1;
   visibility: visible;
-  height: 110px;
+  height: 150px;
   -webkit-transition: all 0.6s cubic-bezier(.4,0,.2,1);
   transition: all 0.6s cubic-bezier(.4,0,.2,1);
   will-change: transform;
@@ -195,7 +195,7 @@
 .expand_prmc.open {
   opacity: 1;
   visibility: visible;
-  height: 110px;
+  height: 150px;
   -webkit-transition: all 0.6s cubic-bezier(.4,0,.2,1);
   transition: all 0.6s cubic-bezier(.4,0,.2,1);
   will-change: transform;
@@ -221,7 +221,7 @@
 .expand_duel.open {
   opacity: 1;
   visibility: visible;
-  height: 110px;
+  height: 150px;
   -webkit-transition: all 0.6s cubic-bezier(.4,0,.2,1);
   transition: all 0.6s cubic-bezier(.4,0,.2,1);
   will-change: transform;
@@ -247,7 +247,7 @@
 .expand_guide.open {
   opacity: 1;
   visibility: visible;
-  height: 110px;
+  height: 150px;
   -webkit-transition: all 0.6s cubic-bezier(.4,0,.2,1);
   transition: all 0.6s cubic-bezier(.4,0,.2,1);
   will-change: transform;
