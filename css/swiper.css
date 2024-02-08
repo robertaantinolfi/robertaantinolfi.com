@@ -45,10 +45,6 @@
     background: white;
     opacity: .2;
   }
-
-  .swiper-pagination-bullet:hover, .swiper-pagination:hover {
-    cursor: none;
-  }
   
   .swiper-pagination-bullet-active {
     opacity: var(--swiper-pagination-bullet-opacity, 1);
