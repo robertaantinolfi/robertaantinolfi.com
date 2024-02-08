@@ -1,29 +1,34 @@
 @media screen and (min-width: 0px) and (max-width: 369px) {
-    #mobile{ display: block; font-size: var(--fontsizeXS);}    
+    #mobile{ display: block; font-size: var(--fontsizeXS);}   
+    a:hover {opacity: 1;} 
     #mobile-hide{display: none;}
     #cursor { display: none;}
 }
 
 @media screen and (min-width: 370px) and (max-width: 412px) { 
     #mobile{ display: block; font-size: var(--fontsizeXS);}
+    a:hover {opacity: 1;}
     #mobile-hide{display: none;}   
     #cursor { display: none;}
 }
 
 @media screen and (min-width: 413px) and (max-width: 539px) {
     #mobile{ display: block; font-size: var(--fontsizeXS);}
+    a:hover {opacity: 1;}
     #mobile-hide{display: none;}
     #cursor { display: none;}
 }
 
 @media screen and (min-width: 540px) and (max-width: 649px) {
     #mobile{ display: block; font-size: var(--fontsizeXS);}
+    a:hover {opacity: 1;}
     #mobile-hide{display: none;}
     #cursor { display: none;}
 }
 
 @media screen and (min-width: 650px) and (max-width: 800px) {
     #mobile{ display: block; font-size: var(--fontsizeXS);}
+    a:hover {opacity: 1;}
     #mobile-hide{display: none;}
     #cursor { display: none;}
 }
@@ -47,3 +52,31 @@
     #mobile{ display: none;}    
     #mobile-hide{display: block;}
 }
+
+@media (hover: none) {
+    a:hover { opacity: 1;}
+    #holy_link:hover {opacity: 1; transition: none;}
+    #sottsass_link:hover {opacity: 1; transition: none;}
+    #out_link:hover {opacity: 1; transition: none;}
+    #aradia_link:hover {opacity: 1; transition: none;}
+    #sherlock_link:hover {opacity: 1; transition: none;}
+    #game_link:hover {opacity: 1; transition: none;}
+    #user_link:hover {opacity: 1; transition: none;}
+    #duel_link:hover {opacity: 1; transition: none;}
+    #guide_link:hover {opacity: 1; transition: none;}
+    .opacity:hover {opacity: 1};
+  }
+
+@media (hover: hover) {
+    a:hover {opacity: .5;}
+    #holy_link:hover {opacity: .5; transition: none;}
+    #sottsass_link:hover {opacity: .5; transition: none;}
+    #out_link:hover {opacity: .5; transition: none;}
+    #aradia_link:hover {opacity: .5; transition: none;}
+    #sherlock_link:hover {opacity: .5; transition: none;}
+    #game_link:hover {opacity: .5; transition: none;}
+    #user_link:hover {opacity: .5; transition: none;}
+    #duel_link:hover {opacity: .5; transition: none;}
+    #guide_link:hover {opacity: .5; transition: none;}
+    .opacity:hover {opacity: .5};
+  }
