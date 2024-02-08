@@ -20,32 +20,6 @@ function filterSelection(category, element) {
   }
 }
 
-document.addEventListener("DOMContentLoaded", function() {
-  const cursor = document.getElementById("cursor");
-
-  document.addEventListener("mousemove", function(e) {
-    // Update cursor position
-    cursor.style.left = e.pageX + "px";
-    cursor.style.top = e.pageY + "px";
-  });
-
-  const hoverElements = document.querySelectorAll("a, button");
-
-  hoverElements.forEach(function(element) {
-    element.addEventListener("mouseenter", function() {
-      // Increase cursor size on image hover
-      cursor.style.width = "40px";
-      cursor.style.height = "40px";
-    });
-
-    element.addEventListener("mouseleave", function() {
-      // Reset cursor size when leaving image
-      cursor.style.width = "10px";
-      cursor.style.height = "10px";
-    });
-  });
-});
-
 // loading
 window.addEventListener('load', function () {
   setTimeout(function () {
@@ -53,7 +27,7 @@ window.addEventListener('load', function () {
     document.querySelectorAll('body > *:not(.preloader)').forEach(element => {
       element.style.opacity = 1; // Override opacity to show content
     });
-  }, 600); // Change this time according to your actual loading time
+  }, 100); // Change this time according to your actual loading time
 });
 
 window.addEventListener('load', function () {
@@ -65,8 +39,8 @@ window.addEventListener('load', function () {
     setTimeout(function () {
       loader.style.display = 'none'; // Hide loader after transition
       document.querySelector('.switch').classList.add('show');
-    }, 200); // Same duration as loader transition
-  }, 600);
+    }, 100); // Same duration as loader transition
+  });
 });
 
 // EXPAND INFO
