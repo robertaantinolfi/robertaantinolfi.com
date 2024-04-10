@@ -20,29 +20,6 @@ function filterSelection(category, element) {
   }
 }
 
-// loading
-window.addEventListener('load', function () {
-  setTimeout(function () {
-    document.querySelector('.loader').classList.add('hide');
-    document.querySelectorAll('body > *:not(.preloader)').forEach(element => {
-      element.style.opacity = 1; // Override opacity to show content
-    });
-  }, 100); // Change this time according to your actual loading time
-});
-
-window.addEventListener('load', function () {
-  setTimeout(function () {
-    var loader = document.querySelector('.loader');
-    loader.classList.add('hide');
-
-    // Trigger switch appearance after loader is hidden
-    setTimeout(function () {
-      loader.style.display = 'none'; // Hide loader after transition
-      document.querySelector('.switch').classList.add('show');
-    }, 100); // Same duration as loader transition
-  });
-});
-
 // EXPAND INFO
 // holy swiss typography
 $(document).ready(function () {
@@ -163,10 +140,3 @@ $(document).ready(function () {
     })
   });
 });
-
-// Google tag (gtag.js)
-window.dataLayer = window.dataLayer || [];
-function gtag() { dataLayer.push(arguments); }
-gtag('js', new Date());
-
-gtag('config', 'G-8SNG96QC8J');
