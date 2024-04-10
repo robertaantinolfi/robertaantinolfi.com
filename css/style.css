@@ -1,13 +1,5 @@
 /* WEB CSS */
 @font-face {
-  font-family: 'Moderat';
-  src: url('Moderat-Regular.otf');
-  font-weight: normal;
-  font-style: normal;
-}
-
-/* WEB CSS */
-@font-face {
   font-family: 'DM Sans';
   src: url('DMSans-Regular.ttf');
   font-weight: normal;
@@ -67,11 +59,6 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-}
-
-body > *:not(.preloader) {
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
 }
 
 .text-xs {
@@ -159,15 +146,6 @@ a:hover {
 
 .grid {
   display: grid;
-}
-
-.switch {
-  opacity: 0;
-  transition: opacity 0.5s ease-in;
-}
-
-.switch.show {
-  opacity: 1;
 }
 
 .row {
@@ -264,35 +242,6 @@ a:hover {
 .text-left         {text-align: left;}
 .text-right        {text-align: right;}
 
-/*  navbar */
-.loader.hide {
-  visibility: hidden;
-  transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
-
-.loader.hide + * {
-  visibility: visible;
-}
-
-.loader {
-  z-index: 2;
-  transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
-
-@keyframes blink {
-  50% {
-    color: transparent }
-}
-.loader__dot {
-  animation: 500ms blink infinite
-}
-.loader__dot:nth-child(2) {
-  animation-delay: 125ms
-}
-.loader__dot:nth-child(3) {
-  animation-delay: 250ms
-}
-
 ul {
   text-align: right;
   list-style-type: none;
@@ -341,6 +290,13 @@ img {
 
 .about {
   padding-top: 40px;
+}
+
+/* list */
+.list > div {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* projects pages */
