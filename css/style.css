@@ -23,12 +23,17 @@
   letter-spacing: .02em;
   background-color: var(--black);
   color: var(--text-color);
-  -webkit-user-select: none; /* safari */        
-  -moz-user-select: none; /* firefox */
-  -ms-user-select: none; /* IE10+/edge */
-  user-select: none; /* standard */
+  -webkit-user-select: auto; /* safari */        
+  -moz-user-select: auto; /* firefox */
+  -ms-user-select: auto; /* IE10+/edge */
+  user-select: auto; /* standard */
   -ms-overflow-style: none; /* hide scrollbar for Internet Explorer, Edge */
   scrollbar-width: none; /* hide scrollbar for Firefox */
+}
+
+::selection {
+  color: var(--black);
+  background-color: var(--white);
 }
 
 *::-webkit-scrollbar {
